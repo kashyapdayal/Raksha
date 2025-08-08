@@ -16,22 +16,49 @@ It uses **AES-256 encryption via `cryptography` library** and provides **master 
 
 ---
 
-## 📦 Installation
-
-### 1️⃣ Clone the Repository
-```bash
+# Installation
+1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/suraksha.git
 cd suraksha
 
-### Install Dependencies
-Make sure you have Python 3.8+ installed. Then install required packages:
-
+2️⃣ Install Dependencies
+Make sure you have Python 3.8+ installed, then run:
 pip install -r requirements.txt
 
-requirements.txt
+Dependencies included in requirements.txt:
 cryptography
 termcolor
 pyfiglet
 zxcvbn
 pyperclip
 pyautogui
+
+# Run the application:
+
+python3 suraksha.py
+
+# 📋 Menu Options
+🔐 Add Password
+Save a new password under either private or business category.
+👀 View Passwords
+View stored passwords in a colorful table.
+🗑️ Delete Password
+Remove a saved password from your vault.
+🔑 Master Password Management
+Change Master Password
+Recover Forgotten Password
+🆘 Setup Recovery
+Update recovery questions, phone, and email.
+🚪 Exit
+Close the program.
+
+# 📂 Project Structure
+suraksha/
+│-- suraksha.py        # Main program
+│-- requirements.txt   # Dependencies
+│-- README.md          # Documentation
+└── (created after first run)
+    ~/.password_vault/
+        ├── secure_passwords.enc
+        ├── salt
+        └── recovery.json
