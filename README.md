@@ -42,9 +42,9 @@ pip install -r requirements.txt
 > pyautogui
 
 ## Run the application:
-
+```
 python3 suraksha.py
-
+```
 ##  Menu Options
 => Add Password
 Save a new password under either private or business category.
