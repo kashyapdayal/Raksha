@@ -20,7 +20,7 @@ It uses **AES-256 encryption via `cryptography` library** and provides **master 
 # Installation
 1️⃣ Clone the Repository
 ```
-git clone https://github.com/<your-username>/suraksha.git
+git clone https://github.com/Kashyap7225/Suraksha.git
 cd suraksha
 ```
 2️⃣ Install Dependencies
