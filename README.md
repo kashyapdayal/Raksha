@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 ## Run the application:
 ```
-python3 suraksha.py
+python3 raksha!.py
 ```
 ##  Menu Options
 => Add Password
