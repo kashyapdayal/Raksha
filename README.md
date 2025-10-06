@@ -53,7 +53,7 @@ Close the program.
 # Project Structure
 ```
 suraksha/
-│-- suraksha.py        # Main program
+│-- raksha!.py        # Main program
 │-- requirements.txt   # Dependencies
 │-- README.md          # Documentation
 └── (created after first run)
